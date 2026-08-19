@@ -16,7 +16,7 @@ spec:
   interval: 1h
   chart:
     spec:
-      chart: ingress-nginx
+      chart: ingress-nginx-doesnotexist
       sourceRef:
         kind: HelmRepository
         name: ingress-nginx
