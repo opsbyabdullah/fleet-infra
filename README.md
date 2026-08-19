@@ -25,7 +25,7 @@ graph TD
     KustomizeCtrl -->|Applies Configs| Apps[📱 Applications<br>Podinfo]:::k8s
     HelmCtrl -->|Installs Charts| HelmReleases[📦 Helm Releases]:::helm
     
-    subgraph ☸️ Staging Cluster
+    subgraph Staging Cluster
         Infra
         Apps
         HelmReleases
